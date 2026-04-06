@@ -43,7 +43,7 @@ async function handleEvent(event) {
     targetLang = 'ko'; // เกาหลี
     textToTranslate = userText.replace('kr ', '');
   } else if (userText.startsWith('cn ')) {
-    targetLang = 'zh-cn'; // จีน
+    targetLang = 'zh-CN'; // จีน
     textToTranslate = userText.replace('cn ', '');
   } else if (userText.startsWith('en ')) {
     targetLang = 'en'; // อังกฤษ
